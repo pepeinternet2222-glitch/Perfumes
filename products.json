@@ -1,0 +1,431 @@
+[
+    {
+        "id": 1,
+        "brand": "Yves Saint Laurent",
+        "name": "LIBRE Eau de Parfum",
+        "type": "Eau de Parfum",
+        "price": 79990,
+        "originalPrice": null,
+        "gender": "mujer",
+        "category": "original",
+        "badge": "best",
+        "image": "/uploads/1787803845032-368168.webp",
+        "emoji": "💜",
+        "tags": [
+            "floral",
+            "vainilla",
+            "lavanda"
+        ],
+        "description": "Una fragancia audaz y sofisticada que fusiona lavanda francesa con orquidea de Marruecos, sobre una base sensual de vainilla y almizcle.",
+        "commercialUrl": "https://www.youtube.com/watch?v=lILgFO_3HGo",
+        "rating": 4.7,
+        "longevity": 4,
+        "sillage": 3,
+        "accords": [
+            "floral",
+            "vainilla",
+            "amaderado",
+            "almizcle",
+            "dulce"
+        ],
+        "seasons": [
+            "primavera",
+            "otoño"
+        ],
+        "timeOfDay": [
+            "dia",
+            "noche"
+        ],
+        "fragranceNotes": {
+            "top": [
+                "Lavanda",
+                "Naranja",
+                "Bergamota"
+            ],
+            "middle": [
+                "Orquidea",
+                "Jazmin",
+                "Flor de Azahar"
+            ],
+            "base": [
+                "Vainilla",
+                "Almizcle",
+                "Cedro"
+            ]
+        }
+    },
+    {
+        "id": 2,
+        "brand": "Dior",
+        "name": "Sauvage Elixir",
+        "type": "Elixir",
+        "price": 94990,
+        "originalPrice": null,
+        "gender": "hombre",
+        "category": "original",
+        "badge": "best",
+        "image": "/uploads/1787803788004-495335.webp",
+        "emoji": "🌊",
+        "tags": [
+            "citrico",
+            "amaderado",
+            "especias"
+        ],
+        "description": "La intensidad de un elixir magnetico. Especias exoticas, lavanda aromatica y licor de regaliz crean una fragancia poderosa y adictiva.",
+        "commercialUrl": "https://www.youtube.com/watch?v=_GF_eUe8dkw",
+        "rating": 4.8,
+        "longevity": 5,
+        "sillage": 4,
+        "accords": [
+            "especiado",
+            "amaderado",
+            "aromatico",
+            "citrico",
+            "ambar"
+        ],
+        "seasons": [
+            "invierno",
+            "otoño"
+        ],
+        "timeOfDay": [
+            "noche"
+        ],
+        "fragranceNotes": {
+            "top": [
+                "Cardamomo",
+                "Nuez Moscada",
+                "Canela"
+            ],
+            "middle": [
+                "Lavanda",
+                "Picante"
+            ],
+            "base": [
+                "Licor",
+                "Ambar",
+                "Sandalia"
+            ]
+        }
+    },
+    {
+        "id": 4,
+        "brand": "Chanel",
+        "name": "Bleu de Chanel Parfum",
+        "type": "Parfum",
+        "price": 119990,
+        "originalPrice": null,
+        "gender": "hombre",
+        "category": "original",
+        "badge": null,
+        "image": "/uploads/1787803717529-190809.jpg",
+        "emoji": "💎",
+        "tags": [
+            "amaderado",
+            "citrico"
+        ],
+        "description": "Elegancia masculina en estado puro. Limon vibrante y menta fresca se funden con jazmin y una base de sandalia y cedro.",
+        "commercialUrl": "https://www.youtube.com/watch?v=kHaykHfj_J8",
+        "rating": 4.9,
+        "longevity": 4,
+        "sillage": 3,
+        "accords": [
+            "amaderado",
+            "citrico",
+            "aromatico",
+            "fresco",
+            "especiado"
+        ],
+        "seasons": [
+            "primavera",
+            "verano",
+            "otoño"
+        ],
+        "timeOfDay": [
+            "dia",
+            "noche"
+        ],
+        "fragranceNotes": {
+            "top": [
+                "Limon",
+                "Menta",
+                "Grapefruit"
+            ],
+            "middle": [
+                "Jazmin",
+                "Frutas Rossas"
+            ],
+            "base": [
+                "Sandalia",
+                "Cedro",
+                "Vetiver"
+            ]
+        }
+    },
+    {
+        "id": 6,
+        "brand": "Calvin Klein",
+        "name": "Eternity for Men",
+        "type": "Eau de Parfum",
+        "price": 49990,
+        "originalPrice": null,
+        "gender": "hombre",
+        "category": "original",
+        "badge": null,
+        "image": "/uploads/1787803319022-889145.webp",
+        "emoji": "🌿",
+        "tags": [
+            "amaderado",
+            "aromatico"
+        ],
+        "description": "Frescura y sofisticacion eternas. Lavanda, salvia y sandalia crean un equilibrio perfecto entre lo aromatico y lo amaderado.",
+        "commercialUrl": "",
+        "rating": 4.3,
+        "longevity": 3,
+        "sillage": 2,
+        "accords": [
+            "fresco",
+            "aromatico",
+            "amaderado",
+            "verde",
+            "especiado"
+        ],
+        "seasons": [
+            "primavera",
+            "verano"
+        ],
+        "timeOfDay": [
+            "dia"
+        ],
+        "fragranceNotes": {
+            "top": [
+                "Limon",
+                "Mandarina",
+                "Lavanda"
+            ],
+            "middle": [
+                "Salvia",
+                "Geranio",
+                "Clavel"
+            ],
+            "base": [
+                "Sandalia",
+                "Vetiver",
+                "Ambar"
+            ]
+        }
+    },
+    {
+        "id": 8,
+        "brand": "Carolina Herrera",
+        "name": "Good Girl EDP",
+        "type": "Eau de Parfum",
+        "price": 84990,
+        "originalPrice": null,
+        "gender": "mujer",
+        "category": "original",
+        "badge": null,
+        "image": "/uploads/1787803461066-985765.webp",
+        "emoji": "🧴",
+        "tags": [
+            "floral",
+            "vainilla",
+            "noir"
+        ],
+        "description": "Dualidad femenina en una fragancia. Almendrina audaz, jazmin celestial y una base adictiva de cacao y tonka.",
+        "commercialUrl": "https://www.youtube.com/watch?v=lILgFO_3HGo",
+        "rating": 4.6,
+        "longevity": 4,
+        "sillage": 4,
+        "accords": [
+            "dulce",
+            "floral",
+            "vainilla",
+            "especiado",
+            "amaderado"
+        ],
+        "seasons": [
+            "otoño",
+            "invierno"
+        ],
+        "timeOfDay": [
+            "noche"
+        ],
+        "fragranceNotes": {
+            "top": [
+                "Almendrina",
+                "Bergamota",
+                "Limon"
+            ],
+            "middle": [
+                "Jazmin",
+                "Tuberosa",
+                "Rosa"
+            ],
+            "base": [
+                "Vainilla",
+                "Cacao",
+                "Tonka"
+            ]
+        }
+    },
+    {
+        "id": 9,
+        "brand": "Armaf",
+        "name": "Club de Nuit Intense",
+        "type": "Eau de Parfum",
+        "price": 29990,
+        "originalPrice": null,
+        "gender": "hombre",
+        "category": "inspiracion",
+        "badge": "best",
+        "image": "/uploads/1787803518030-911422.webp",
+        "emoji": "🔥",
+        "tags": [
+            "citrico",
+            "floral",
+            "amaderado"
+        ],
+        "description": "Inspiracion de Aventus. Piña y limon brillantes dan paso a un corazon de jazmin y una base de almizcle y vetiver.",
+        "commercialUrl": "",
+        "rating": 4.4,
+        "longevity": 4,
+        "sillage": 3,
+        "accords": [
+            "citrico",
+            "frutal",
+            "floral",
+            "amaderado",
+            "ahumado"
+        ],
+        "seasons": [
+            "primavera",
+            "verano"
+        ],
+        "timeOfDay": [
+            "dia",
+            "noche"
+        ],
+        "fragranceNotes": {
+            "top": [
+                "Limón",
+                "Piña",
+                "Manzana"
+            ],
+            "middle": [
+                "Jazmin",
+                "Rosa",
+                "Madera de Bois"
+            ],
+            "base": [
+                "Almizcle",
+                "Ambergris",
+                "Vetiver"
+            ]
+        }
+    },
+    {
+        "id": 11,
+        "brand": "Jean Paul Gaultier",
+        "name": "Le Male Le Parfum",
+        "type": "Parfum",
+        "price": 74990,
+        "originalPrice": null,
+        "gender": "hombre",
+        "category": "original",
+        "badge": null,
+        "image": "/uploads/1787803628134-510529.jpg",
+        "emoji": "🧴",
+        "tags": [
+            "amaderado",
+            "vainilla",
+            "especias"
+        ],
+        "description": "La masculinidad reimaginada. Lavanda, vainilla y caramelo se fusionan con cedro y amber para una fragancia magnetica.",
+        "commercialUrl": "https://www.youtube.com/watch?v=_GF_eUe8dkw",
+        "rating": 4.7,
+        "longevity": 5,
+        "sillage": 4,
+        "accords": [
+            "vainilla",
+            "amaderado",
+            "dulce",
+            "especiado",
+            "aromatico"
+        ],
+        "seasons": [
+            "invierno",
+            "otoño"
+        ],
+        "timeOfDay": [
+            "noche"
+        ],
+        "fragranceNotes": {
+            "top": [
+                "Lavanda",
+                "Menta",
+                "Cardamomo"
+            ],
+            "middle": [
+                "Vainilla",
+                "Caramelo"
+            ],
+            "base": [
+                "Madera de Cedro",
+                "Amber",
+                "Tono Beans"
+            ]
+        }
+    },
+    {
+        "id": 13,
+        "brand": "Emporio Armani",
+        "name": "Aqua di gio profondo",
+        "type": "Marino",
+        "price": 98990,
+        "originalPrice": 105000,
+        "gender": "hombre",
+        "category": "original",
+        "badge": "best",
+        "image": "/uploads/1787795248662-743538.jpg",
+        "emoji": "🧴",
+        "tags": [
+            "marino"
+        ],
+        "description": "La profundidad del oceano en una fragancia. Notas acuaticas, bergamota y cipres crean una experiencia refrescante y profunda.",
+        "commercialUrl": "https://www.youtube.com/watch?v=kHaykHfj_J8",
+        "rating": 4.8,
+        "longevity": 4,
+        "sillage": 3,
+        "accords": [
+            "acuatico",
+            "fresco",
+            "citrico",
+            "amaderado",
+            "aromatico"
+        ],
+        "seasons": [
+            "primavera",
+            "verano"
+        ],
+        "timeOfDay": [
+            "dia"
+        ],
+        "fragranceNotes": {
+            "top": [
+                "Bergamota",
+                "Limón",
+                "Acua Notes"
+            ],
+            "middle": [
+                "Ciprés",
+                "Lavanda",
+                "Geranio"
+            ],
+            "base": [
+                "Almizcle",
+                "Amber",
+                "Patchouli"
+            ]
+        }
+    }
+]

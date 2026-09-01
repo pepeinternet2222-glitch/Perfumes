@@ -1,0 +1,34 @@
+{
+    "hero": {
+        "videoUrls": [
+            "https://www.youtube.com/watch?v=lILgFO_3HGo",
+            "https://www.youtube.com/watch?v=_GF_eUe8dkw",
+            "https://www.youtube.com/watch?v=kHaykHfj_J8"
+        ],
+        "coverImage": "",
+        "badge": "Nueva Temporada 2026",
+        "title": "El Arte del Perfume",
+        "subtitle": "Descubre fragancias que despiertan sentidos. Desde inspiraciones de las casas mas iconicas hasta creaciones exclusivas que definen tu esencia.",
+        "btnPrimary": "Explorar Catalogo",
+        "btnSecondary": "Fragancia Destacada"
+    },
+    "featured": {
+        "productId": 2
+    },
+    "categories": {
+        "femeninas": [
+            1,
+            5,
+            8
+        ],
+        "masculinas": [
+            2,
+            4,
+            6,
+            9,
+            11,
+            13
+        ],
+        "sets": []
+    }
+}
