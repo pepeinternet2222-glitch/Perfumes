@@ -227,6 +227,30 @@
             display: block;
         }
 
+        /* YouTube cover player for hero */
+        .hero-youtube-player {
+            position: absolute !important;
+            top: 50% !important;
+            left: 50% !important;
+            transform: translate(-50%, -50%) !important;
+            width: 177.78vh !important;
+            height: 100vh !important;
+            min-width: 100% !important;
+            min-height: 100% !important;
+            z-index: 0;
+            overflow: hidden;
+        }
+
+        .hero-youtube-player iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+            pointer-events: none;
+        }
+
         .hero-cover {
             position: absolute;
             inset: 0;
@@ -1691,11 +1715,11 @@
             position: absolute;
             top: 50%;
             left: 50%;
-            min-width: 120%;
-            min-height: 120%;
-            width: auto;
-            height: auto;
             transform: translate(-50%, -50%);
+            width: 177.78vh;
+            height: 100vh;
+            min-width: 100%;
+            min-height: 100%;
             border: none;
             pointer-events: none;
         }
@@ -1971,9 +1995,29 @@
                 font-size: 36px;
             }
 
+            .hero {
+                min-height: 600px;
+                height: 90vh;
+            }
+
+            .hero-content {
+                padding: 0 24px;
+            }
+
+            .hero p {
+                font-size: 15px;
+                line-height: 1.7;
+            }
+
             .hero-btns {
                 flex-direction: column;
                 align-items: center;
+            }
+
+            .btn-primary,
+            .btn-secondary {
+                width: 100%;
+                max-width: 320px;
             }
 
             .products-grid {
@@ -2034,11 +2078,30 @@
 
             .filters-bar {
                 gap: 8px;
+                overflow-x: auto;
+                justify-content: flex-start;
             }
 
             .filter-btn {
-                padding: 8px 16px;
+                padding: 8px 14px;
                 font-size: 11px;
+                white-space: nowrap;
+            }
+
+            .collection-card {
+                height: 420px;
+            }
+
+            .collection-content {
+                padding: 28px 24px;
+            }
+
+            .detail-info-card {
+                padding: 22px;
+            }
+
+            .section-header h2 {
+                font-size: 28px;
             }
         }
     </style>
@@ -2677,7 +2740,7 @@
                 } else {
                     const iframe = document.createElement('div');
                     iframe.id = 'heroYTPlayer';
-                    iframe.style.cssText = 'position:absolute;top:-50px;left:-50px;width:calc(100% + 100px);height:calc(100% + 100px);z-index:0;';
+                    iframe.className = 'hero-youtube-player';
                     document.getElementById('hero').prepend(iframe);
 
                     heroYTPlayer = new YT.Player('heroYTPlayer', {
