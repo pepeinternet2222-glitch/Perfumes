@@ -427,5 +427,55 @@
                 "Patchouli"
             ]
         }
+    },
+    {
+        "id": 14,
+        "brand": "Ralph Lauren",
+        "name": "Ralph's Club Estuche Parfum",
+        "type": "Estuche 100ml+10ml+Deo",
+        "price": 54990,
+        "originalPrice": 110390,
+        "gender": "hombre",
+        "category": "original",
+        "badge": "oferta",
+        "image": "/uploads/ralphs-club-estuche.png",
+        "emoji": "🎁",
+        "tags": [
+            "amaderado",
+            "lavanda",
+            "estuche"
+        ],
+        "description": "Estuche EDP 100ml + 10ml + Deo 75g. Fragancia sofisticada y moderna que celebra la elegancia y energia del hombre contemporaneo, con notas amaderadas y lavanda aromatica que crean una estela magnetica.",
+        "commercialUrl": "",
+        "rating": 4.6,
+        "longevity": 4,
+        "sillage": 3,
+        "accords": [
+            "amaderado",
+            "aromatico",
+            "citrico",
+            "fresco",
+            "especiado"
+        ],
+        "seasons": [
+            "otoño",
+            "invierno"
+        ],
+        "timeOfDay": [
+            "noche"
+        ],
+        "fragranceNotes": {
+            "top": [
+                "Lavanda",
+                "Salvia"
+            ],
+            "middle": [
+                "Flor de Naranjo"
+            ],
+            "base": [
+                "Vetiver",
+                "Madera de Cedro"
+            ]
+        }
     }
 ]
