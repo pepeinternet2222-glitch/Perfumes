@@ -1055,6 +1055,19 @@
                     </div>
 
                     <div class="table-container" style="padding: 24px; margin-top: 20px;">
+                        <h3 style="font-size:16px; margin-bottom:6px; font-family:'Inter',sans-serif; font-weight:600;">WhatsApp de la Tienda</h3>
+                        <p style="font-size:12px; color:var(--gray); margin-bottom:16px;">Numero al que se envian los pedidos del carrito. Incluye codigo de pais, ej: +56912345678</p>
+                        <div class="form-group" style="margin-bottom:0;">
+                            <label>Numero de WhatsApp</label>
+                            <input type="text" id="settingWhatsapp" placeholder="+56912345678">
+                        </div>
+
+                        <button class="btn btn-gold" style="width:100%; margin-top:24px; justify-content:center;" onclick="saveSettings()">
+                            Guardar Cambios
+                        </button>
+                    </div>
+
+                    <div class="table-container" style="padding: 24px; margin-top: 20px;">
                         <h3 style="font-size:16px; margin-bottom:20px; font-family:'Inter',sans-serif; font-weight:600;">Categorias - Playlist de Videos</h3>
                         <p style="font-size:12px; color:var(--gray); margin-bottom:20px;">Arrastra para reordenar. Selecciona que productos aparecen en cada seccion de la tienda.</p>
 
@@ -1389,6 +1402,9 @@
             featuredSelect.innerHTML = '<option value="">Ninguno</option>' +
                 products.map(p => `<option value="${p.id}" ${(settings.featured || {}).productId == p.id ? 'selected' : ''}>${p.brand} - ${p.name}</option>`).join('');
 
+            // WhatsApp
+            document.getElementById('settingWhatsapp').value = settings.whatsapp || '';
+
             // Category playlists
             const cats = settings.categories || {};
             renderCategoryList('catFemeninas', 'addCatFemeninas', 'femeninas', cats.femeninas || []);
@@ -1545,7 +1561,8 @@
                     femeninas: categoryData.femeninas || [],
                     masculinas: categoryData.masculinas || [],
                     sets: categoryData.sets || []
-                }
+                },
+                whatsapp: document.getElementById('settingWhatsapp').value.trim()
             };
 
             try {

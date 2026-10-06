@@ -223,6 +223,9 @@ app.put('/api/settings', (req, res) => {
         if (req.body.categories) {
             settings.categories = { ...settings.categories, ...req.body.categories };
         }
+        if (req.body.whatsapp) {
+            settings.whatsapp = req.body.whatsapp;
+        }
         writeSettings(settings);
         res.json({ success: true, settings });
     } catch (err) {
